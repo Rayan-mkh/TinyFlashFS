@@ -1,0 +1,13 @@
+# compiled binaries
+src/filesystem/fat
+src/filesystem/file
+src/core/common
+storage/file
+
+# generated/test output
+storage/*.txt
+src/filesystem/*.txt
+
+# editor/OS junk
+.vscode/
+*.o
