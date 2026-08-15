@@ -1,6 +1,6 @@
 # TinyFlashFS
 
-A simple simulated filesystem written in C, built as a learning project.
+A simple simulated filesystem written in C.
 
 It mimics how a basic flash filesystem works: files are split into fixed-size
 64-byte blocks, tracked with a FAT (File Allocation Table), and stored
