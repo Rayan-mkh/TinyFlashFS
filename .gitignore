@@ -1,13 +1,20 @@
-# compiled binaries
-src/filesystem/fat
-src/filesystem/file
-src/core/common
-storage/file
+# compiled binaries (no extension, from gcc/make)
+main
+file
+dir
+fat
+common
 
-# generated/test output
-storage/*.txt
-src/filesystem/*.txt
-
-# editor/OS junk
-.vscode/
+# object files
 *.o
+
+# generated storage / runtime data
+storage/*.json
+storage/*.img
+
+# stray test/output files with no real meaning
+*.txt
+
+# editor / OS junk
+.vscode/
+.DS_Store

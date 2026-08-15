@@ -1,0 +1,5 @@
+
+set -e   
+
+make
+./main
