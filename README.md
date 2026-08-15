@@ -35,5 +35,3 @@ src/filesystem/   file.c / file.h       - file creation & block storage
 storage/          generated metadata (.json) and fat.img (not tracked in git)
 ```
 
-## Status
-Work in progress — built step by step while learning C and filesystem concepts.
